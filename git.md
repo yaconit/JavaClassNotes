@@ -3,7 +3,8 @@
 2. 配置环境变量（如果在 CMD 中输入 git 能够执行，此步可以跳过）
 `path=/git/cmd`
 3. 生成密钥 `ssh-keygen -t rsa -C "登录邮箱"`
-4. 全局配置 ```shell
+4. 全局配置 
+```shell
 git config --global user.email "登录邮箱"
 git config --global user.name "用户名"
 ```
